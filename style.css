@@ -65,3 +65,23 @@ p1{
 .smile{
     padding-top: 40px;
 }
+@media only screen and (max-width: 700px){
+    .introBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    p{
+        width: 80%;
+    }
+    h2{
+        margin-left: 40%;
+    }p1{margin-left: 18%;}
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
